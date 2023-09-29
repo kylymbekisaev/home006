@@ -6,11 +6,13 @@ public class Main {
 
         Weapon weapon = new Weapon();
         weapon.weaponType = "fireams";
-        weapon.name = "machineGun";
+        weapon.name ="machineGun";
+
+        boss.setWeapon1(weapon);
 
         System.out.println(boss.getHealth());
         System.out.println(boss.getDamage());
-        System.out.println(weapon.weaponType);
-        System.out.println(weapon.name);
+        System.out.println(boss.getWeapon1().name);
+        System.out.println(boss.getWeapon1().weaponType);
     }
 }

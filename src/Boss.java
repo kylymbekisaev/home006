@@ -1,11 +1,11 @@
 public class Boss extends GameEntity{
-    private Weapon weapon;
+    private Weapon weapon1;
 
-    public Weapon getWeapon() {
-        return weapon;
+    public Weapon getWeapon1() {
+        return weapon1;
     }
 
-    public void setWeapon(Weapon weapon) {
-        this.weapon = weapon;
+    public void setWeapon1(Weapon weapon1) {
+        this.weapon1 = weapon1;
     }
 }
